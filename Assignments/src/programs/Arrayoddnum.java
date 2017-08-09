@@ -5,7 +5,7 @@ public class Arrayoddnum {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] a=new int[3];
+	/*	int[] a=new int[3];
 		a[0]=9;
 		a[1]=8;
 		a[2]=7;
@@ -16,8 +16,19 @@ public class Arrayoddnum {
 				System.out.println("odd");
 				
 			}
+		}*/
+		
+		// another program
+		int [] a=new int[]{1,7,2,8,9};
+		int [] b=new int[10];
+		System.arraycopy(a, 0, b, 0,a.length);
+		//System.out.println(b);
+		for(int i=0;i<=b.length-1;i=i+1){
+			System.out.println(b[i]);
 		}
 
 	}
+	
 
 }
+
