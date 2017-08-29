@@ -276,6 +276,7 @@ public class AutomationScripts {
 	    driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 	    driver.findElement(By.id(sheet.getRow(1).getCell(4).getStringCellValue()+"")).click();
 	    driver.findElement(By.linkText(sheet.getRow(1).getCell(5).getStringCellValue()+"")).click();
+	    driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 	    driver.findElement(By.xpath(sheet.getRow(1).getCell(6).getStringCellValue()+"")).click();
 	    driver.findElement(By.id(sheet.getRow(1).getCell(7).getStringCellValue()+"")).click();
 	    driver.findElement(By.id(sheet.getRow(1).getCell(8).getStringCellValue()+"")).click();

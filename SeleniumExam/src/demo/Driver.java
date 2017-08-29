@@ -7,12 +7,12 @@ public class Driver {
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		AutomationScripts tc=new AutomationScripts();
-		tc.sfdcLoginwithinvalid("/Users/jtatikonda/Documents/Salesforce_All/Salesforce.xls");
+		/*tc.sfdcLoginwithinvalid("/Users/jtatikonda/Documents/Salesforce_All/Salesforce.xls");
 		tc.sfdcLoginwithValid("/Users/jtatikonda/Documents/Salesforce_All/Login.xls");
 		tc.errorMessage("/Users/jtatikonda/Documents/Salesforce_All/Login1.xls");
 		tc.logOut("/Users/jtatikonda/Documents/Salesforce_All/Logout.xls");
 		tc.developerConsole("/Users/jtatikonda/Documents/Salesforce_All/DeveloperConsole.xls");
-		tc.input_post("/Users/jtatikonda/Documents/Salesforce_All/Input_post.xls");
+		tc.input_post("/Users/jtatikonda/Documents/Salesforce_All/Input_post.xls");*/
 		tc.fileUpload("/Users/jtatikonda/Documents/Salesforce_All/FileUpload.xls");
 		tc.createAccount("/Users/jtatikonda/Documents/Salesforce_All/CreateAccount.xls");
 		//tc.createAccountreport("/Users/jtatikonda/Documents/Salesforce_All/CreateAccount_report.xls");
